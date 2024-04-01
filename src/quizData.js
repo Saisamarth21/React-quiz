@@ -1,70 +1,48 @@
 const quizData = [
-    {
-      question: "What was the first video game ever made?",
-      options: ["Pong", "Spacewar!", "Tetris", "Computer Space"],
-      answer: "Spacewar!"
-    },
-    {
-      question: "Which company developed the first commercial antivirus software?",
-      options: ["Symantec", "McAfee", "Norton", "Kaspersky Lab"],
-      answer: "McAfee"
-    },
-    {
-      question: "Which animal is featured in the official PHP logo?",
-      options: ["Elephant", "Hippo", "Giraffe", "Lion"],
-      answer: "Elephant"
-    },
-    {
-      question: "What does 'HTTP' stand for?",
-      options: ["HyperText Transfer Protocol", "Hyperlink Transfer Technology Protocol", "Hyperlink Text Transfer Protocol", "HyperText Technology Protocol"],
-      answer: "HyperText Transfer Protocol"
-    },
-    {
-      question: "Which programming language is known as the backbone of the World Wide Web?",
-      options: ["Java", "C#", "Python", "HTML"],
-      answer: "HTML"
-    },
-    {
-      question: "What is the name of the world's first computer programmer?",
-      options: ["Charles Babbage", "Ada Lovelace", "Alan Turing", "Grace Hopper"],
-      answer: "Ada Lovelace"
-    },
-    {
-      question: "In what year was the iPhone first introduced?",
-      options: ["2005", "2007", "2009", "2011"],
-      answer: "2007"
-    },
-    {
-      question: "What was Google's original name?",
-      options: ["BackRub", "Googol", "SearchMaster", "WebSearch"],
-      answer: "BackRub"
-    },
-    {
-      question: "Which of these companies was not founded in a garage?",
-      options: ["Amazon", "Google", "Apple", "Microsoft"],
-      answer: "Amazon"
-    },
-    {
-      question: "What does 'GPU' stand for?",
-      options: ["Graphical Processing Unit", "Graphics Performance Unit", "Graphics Processing Unit", "Graphical Performance Unit"],
-      answer: "Graphics Processing Unit"
-    },  
-    {
-      question: "What is the capital of France?",
-      options: ["New York", "London", "Paris", "Dublin"],
-      answer: "Paris"
-    },
-    {
-      question: "Who painted the Mona Lisa?",
-      options: ["Vincent Van Gogh", "Leonardo da Vinci", "Pablo Picasso", "Claude Monet"],
-      answer: "Leonardo da Vinci"
-    },
-    {
-      question: "What is the largest planet in our solar system?",
-      options: ["Earth", "Jupiter", "Saturn", "Mars"],
-      answer: "Jupiter"
-    }
-  ];
-  
-  export default quizData;
-  
+  // Game of Thrones
+  {
+    question: "Who is known as the 'Mother of Dragons'?",
+    options: ["Cersei Lannister", "Daenerys Targaryen", "Sansa Stark", "Arya Stark"],
+    answer: "Daenerys Targaryen"
+  },
+  {
+    question: "What is the name of Jon Snow's direwolf?",
+    options: ["Ghost", "Grey Wind", "Summer", "Nymeria"],
+    answer: "Ghost"
+  },
+  // Friends
+  {
+    question: "What is the name of Ross and Monica's dog in 'Friends'?",
+    options: ["Marcel", "Bingo", "Chi-Chi", "They don't have a dog"],
+    answer: "They don't have a dog"
+  },
+  {
+    question: "What's the name of the coffee shop used by the characters?",
+    options: ["Central Perk", "Central Park", "Coffee Central", "Brew Central"],
+    answer: "Central Perk"
+  },
+  // Breaking Bad
+  {
+    question: "What is the alias used by Walter White in 'Breaking Bad'?",
+    options: ["Heisenberg", "Einstein", "Newton", "Bohr"],
+    answer: "Heisenberg"
+  },
+  {
+    question: "What color is the meth that Walter White and Jesse Pinkman cook?",
+    options: ["Blue", "Red", "Green", "Yellow"],
+    answer: "Blue"
+  },
+  // Squid Game
+  {
+    question: "What is the first game played in 'Squid Game'?",
+    options: ["Tug of War", "Red Light, Green Light", "Marbles", "Glass Stepping Stones"],
+    answer: "Red Light, Green Light"
+  },
+  {
+    question: "What is the prize money for the winner of 'Squid Game'?",
+    options: ["45.6 billion won", "1 billion won", "10 billion won", "100 billion won"],
+    answer: "45.6 billion won"
+  }
+];
+
+export default quizData;
