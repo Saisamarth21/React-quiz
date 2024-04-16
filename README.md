@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Link
 
-This project is hosted in AWS using Amplify service :[Website](https://main.d4nna4pec8owm.amplifyapp.com/)
+This project is hosted in AWS using Amplify, Cognito and IAM services : [Website](https://main.d4nna4pec8owm.amplifyapp.com/)
 
 ## Available Scripts
 
